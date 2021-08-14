@@ -1,0 +1,94 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;line-height:1;margin:0;padding:0}
+blockquote,q{quotes:none}
+
+html, body {
+	height:100%;
+	background: white url('./images/bg-top.jpg') 0 0 repeat-x;
+}
+
+body {
+	font-size:12px;
+	font-family:Arial, Tahoma, sans-serif;
+	line-height:1.5;
+	
+	min-height:100%;
+	height:auto;
+}
+
+a, a:visited {	color:darkorange;	}
+
+div#w1k {text-align:center; width:1000px; border: 0px solid red; margin:0 auto;
+	height:100%;	min-height:100%;	height:auto;
+}
+
+#header {	overflow:auto;	height:100px;	position:relative;	}
+a#logo {	position:absolute;	top:20px;	left:20px;	}
+	
+div.topmenu {	position:absolute;	top:35px;	right:0px; right:20px;	}
+div.topmenu a, div.topmenu a:visited { color:#818181;	display:block; 	text-decoration:none;	position:relative; float:left; font:normal 16px "Myriad Pro",arial,verdana; 	 text-shadow: #b5b5b5 1px 1px 2px; }
+div.topmenu a:hover {	color:darkorange;	border-bottom:1px dotted darkorange;		 text-shadow: white 1px 1px 2px;   }
+div.topmenu a:active {	color:#818181;	}
+div.topmenu a::after {	content: ''; width:6px; height:18px; background:url(./images/menu-bord.png) 0 3px no-repeat;	float:left; margin:0px 20px;	}
+div.topmenu a:first-child::after {content: none}
+
+div#topmenu-border { width:960px; height:1px; overflow:auto; background-color:#cbcbcb; clear:both; margin:0px auto 20px; text-align:center;	}
+div#main {clear:both; margin:0px auto 20px;	border:0px solid green; overflow:auto; }
+div#content1 {	border:0px solid red; width: 240px; float:left;	text-align:left; }
+div#content2 {	border:0px solid blue; width:740px; float:left; text-align:left; font:normal 14px arial,"Myriad Pro",verdana; color:#585858; overflow:auto; }
+#logo-elecsnet img {	margin-left:20px;	}
+
+p {	margin:0px auto 20px; text-align:justify;	}
+
+#footer { clear:both;	height:60px;	width:100%; margin-top:20px;
+	text-align:left;	position:relative; bottom:0px; background:#ed771a;
+}
+
+div#b1k {text-align:center; width:1000px; margin:0 auto;  border: 0px solid red; 
+	height:100%;	min-height:100%;	height:auto;
+}
+div.bottom_menu1 {	position:relative; width: 230px; float:left;	text-align:left; background:url(./images/walletmap.png) 35px 0 no-repeat; overflow:auto; height:60px; padding-left:80px; border:0px solid blue;  }
+div.bottom_menu1 a.wallet {	position:relative;  top:5px; }
+div.bottom_menu1 a.map { 	position:relative;  top:16px;}
+div.bottom_menu1 a:hover {	color:#fff;	border-bottom:1px dotted #fff;	}
+div.bottom_menu1 a, div.bottom_menu1 a:visited {	color:#fff;	text-decoration:none;	  font:normal 16px "Myriad Pro",arial,verdana;  text-shadow: #353535 1px 1px 2px, orange 0 0 1em;   }
+
+div.bottom_menu2 {	position:relative;	float:left; margin:17px auto;	border:0px solid red; text-align:right; }
+div.bottom_menu2 a, div.bottom_menu2 a:visited { color:#fff;	display:block; 	text-decoration:none;	position:relative; float:left; font:normal 16px "Myriad Pro",arial,verdana;	 text-shadow: #353535 1px 1px 2px, orange 0 0 1em;   }
+div.bottom_menu2 a:hover {	color:#fff;	border-bottom:1px dotted #fff;	 text-shadow: black 1px 1px 2px   }
+div.bottom_menu2 a:active {	color:#fff;	}
+div.bottom_menu2 span {	width:6px; height:18px; float:left; margin:0px 10px;	}
+
+h1 {color:darkorange; font:bold 26px "Myriad Pro",arial,verdana;	 text-shadow: #454545 1px 1px 1px;   margin:10px 0px 20px;}
+h2 {color:#FF641E; font:bold 18px "Myriad Pro",arial,verdana;	 text-shadow: #a9a9a9 1px 1px 1px,white 1px 1px 5px;   margin:25px 0px 12px;}
+h3 {color:#696969; font:bold 16px "Myriad Pro",arial,verdana;  margin:25px 0px 12px; text-decoration:underline;}
+h4 {color:#898989; font:bold 14px arial,"Myriad Pro",verdana;  margin:25px 0px 12px;}
+ul,li {padding:0px; margin:0px;}
+ul {margin:20px 0px 20px 20px;}
+ul li {clear:both; margin-bottom:6px; margin-left:20px;}
+
+.padding-sm {
+    padding: 6px;
+}
+.margin-sm {
+    margin-bottom: 6px;
+}
+
+.overlay {
+	display:none;
+	background:#fff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-ms-border-radius:10px;
+	border-radius:10px;
+	-moz-box-shadow: 0 0 30px #333;
+	-webkit-box-shadow: 0 0 30px #333;
+	box-shadow: 0 0 30px #333;
+}
+	
+body {
+	display: flex;
+	flex-direction: column;
+}
+#body {
+	flex: 1;
+}
